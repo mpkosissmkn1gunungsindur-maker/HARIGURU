@@ -1,0 +1,51 @@
+/* TEMA WARNA: BIRU GRADASI ELEGAN + GOLD & SILVER */
+body {
+  background: linear-gradient(135deg, #090d16 0%, #111b2e 50%, #070b12 100%);
+  color: #f1f5f9;
+}
+
+/* Tombol & Badge Gold Mewah */
+.brand-gold-btn {
+  background: linear-gradient(135deg, #fbbf24 0%, #d97706 100%);
+  transition: all 0.2s ease;
+}
+.brand-gold-btn:hover {
+  filter: brightness(1.1);
+}
+
+.brand-gold-badge {
+  background: linear-gradient(135deg, #fef08a 0%, #f59e0b 100%);
+}
+
+.text-amber-300 {
+  color: #fcd34d;
+}
+
+/* Glassmorphism Card dengan Aksen Silver Border */
+.glass-card {
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(203, 213, 225, 0.12);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.category-card {
+  background: rgba(11, 18, 32, 0.7);
+  border: 1px solid rgba(148, 163, 184, 0.15);
+  transition: all 0.2s ease-in-out;
+}
+
+.category-card:hover {
+  border-color: rgba(251, 191, 36, 0.4);
+  background: rgba(15, 23, 42, 0.9);
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
